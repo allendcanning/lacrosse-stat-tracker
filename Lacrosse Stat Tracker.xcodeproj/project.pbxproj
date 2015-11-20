@@ -14,6 +14,7 @@
 		ABC0BEF51BFFBDC400C5D7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC0BEF31BFFBDC400C5D7F0 /* LaunchScreen.storyboard */; };
 		ABC0BF001BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0BEFF1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerTests.swift */; };
 		ABC0BF0B1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0BF0A1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerUITests.swift */; };
+		ABC0BF191BFFBFC300C5D7F0 /* README in Resources */ = {isa = PBXBuildFile; fileRef = ABC0BF181BFFBFC300C5D7F0 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ABC0BF061BFFBDC400C5D7F0 /* Lacrosse Stat TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lacrosse Stat TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC0BF0A1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lacrosse_Stat_TrackerUITests.swift; sourceTree = "<group>"; };
 		ABC0BF0C1BFFBDC400C5D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC0BF181BFFBFC300C5D7F0 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		ABC0BEDE1BFFBDC300C5D7F0 = {
 			isa = PBXGroup;
 			children = (
+				ABC0BF181BFFBFC300C5D7F0 /* README */,
 				ABC0BEE91BFFBDC400C5D7F0 /* Lacrosse Stat Tracker */,
 				ABC0BEFE1BFFBDC400C5D7F0 /* Lacrosse Stat TrackerTests */,
 				ABC0BF091BFFBDC400C5D7F0 /* Lacrosse Stat TrackerUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC0BF191BFFBFC300C5D7F0 /* README in Resources */,
 				ABC0BEF51BFFBDC400C5D7F0 /* LaunchScreen.storyboard in Resources */,
 				ABC0BEF21BFFBDC400C5D7F0 /* Assets.xcassets in Resources */,
 				ABC0BEF01BFFBDC400C5D7F0 /* Main.storyboard in Resources */,
