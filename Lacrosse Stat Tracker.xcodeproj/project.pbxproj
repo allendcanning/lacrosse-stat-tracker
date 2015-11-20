@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC0BEEB1BFFBDC400C5D7F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0BEEA1BFFBDC400C5D7F0 /* AppDelegate.swift */; };
+		ABC0BEED1BFFBDC400C5D7F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0BEEC1BFFBDC400C5D7F0 /* ViewController.swift */; };
+		ABC0BEF01BFFBDC400C5D7F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC0BEEE1BFFBDC400C5D7F0 /* Main.storyboard */; };
+		ABC0BEF21BFFBDC400C5D7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC0BEF11BFFBDC400C5D7F0 /* Assets.xcassets */; };
+		ABC0BEF51BFFBDC400C5D7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC0BEF31BFFBDC400C5D7F0 /* LaunchScreen.storyboard */; };
+		ABC0BF001BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0BEFF1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerTests.swift */; };
+		ABC0BF0B1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC0BF0A1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC0BEFC1BFFBDC400C5D7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC0BEDF1BFFBDC300C5D7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC0BEE61BFFBDC400C5D7F0;
+			remoteInfo = "Lacrosse Stat Tracker";
+		};
+		ABC0BF071BFFBDC400C5D7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC0BEDF1BFFBDC300C5D7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC0BEE61BFFBDC400C5D7F0;
+			remoteInfo = "Lacrosse Stat Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABC0BEE71BFFBDC400C5D7F0 /* Lacrosse Stat Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lacrosse Stat Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC0BEEA1BFFBDC400C5D7F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABC0BEEC1BFFBDC400C5D7F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABC0BEEF1BFFBDC400C5D7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABC0BEF11BFFBDC400C5D7F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABC0BEF41BFFBDC400C5D7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABC0BEF61BFFBDC400C5D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC0BEFB1BFFBDC400C5D7F0 /* Lacrosse Stat TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lacrosse Stat TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC0BEFF1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lacrosse_Stat_TrackerTests.swift; sourceTree = "<group>"; };
+		ABC0BF011BFFBDC400C5D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC0BF061BFFBDC400C5D7F0 /* Lacrosse Stat TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lacrosse Stat TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC0BF0A1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lacrosse_Stat_TrackerUITests.swift; sourceTree = "<group>"; };
+		ABC0BF0C1BFFBDC400C5D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC0BEE41BFFBDC400C5D7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0BEF81BFFBDC400C5D7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0BF031BFFBDC400C5D7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABC0BEDE1BFFBDC300C5D7F0 = {
+			isa = PBXGroup;
+			children = (
+				ABC0BEE91BFFBDC400C5D7F0 /* Lacrosse Stat Tracker */,
+				ABC0BEFE1BFFBDC400C5D7F0 /* Lacrosse Stat TrackerTests */,
+				ABC0BF091BFFBDC400C5D7F0 /* Lacrosse Stat TrackerUITests */,
+				ABC0BEE81BFFBDC400C5D7F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC0BEE81BFFBDC400C5D7F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC0BEE71BFFBDC400C5D7F0 /* Lacrosse Stat Tracker.app */,
+				ABC0BEFB1BFFBDC400C5D7F0 /* Lacrosse Stat TrackerTests.xctest */,
+				ABC0BF061BFFBDC400C5D7F0 /* Lacrosse Stat TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC0BEE91BFFBDC400C5D7F0 /* Lacrosse Stat Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				ABC0BEEA1BFFBDC400C5D7F0 /* AppDelegate.swift */,
+				ABC0BEEC1BFFBDC400C5D7F0 /* ViewController.swift */,
+				ABC0BEEE1BFFBDC400C5D7F0 /* Main.storyboard */,
+				ABC0BEF11BFFBDC400C5D7F0 /* Assets.xcassets */,
+				ABC0BEF31BFFBDC400C5D7F0 /* LaunchScreen.storyboard */,
+				ABC0BEF61BFFBDC400C5D7F0 /* Info.plist */,
+			);
+			path = "Lacrosse Stat Tracker";
+			sourceTree = "<group>";
+		};
+		ABC0BEFE1BFFBDC400C5D7F0 /* Lacrosse Stat TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC0BEFF1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerTests.swift */,
+				ABC0BF011BFFBDC400C5D7F0 /* Info.plist */,
+			);
+			path = "Lacrosse Stat TrackerTests";
+			sourceTree = "<group>";
+		};
+		ABC0BF091BFFBDC400C5D7F0 /* Lacrosse Stat TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC0BF0A1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerUITests.swift */,
+				ABC0BF0C1BFFBDC400C5D7F0 /* Info.plist */,
+			);
+			path = "Lacrosse Stat TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC0BEE61BFFBDC400C5D7F0 /* Lacrosse Stat Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC0BF0F1BFFBDC400C5D7F0 /* Build configuration list for PBXNativeTarget "Lacrosse Stat Tracker" */;
+			buildPhases = (
+				ABC0BEE31BFFBDC400C5D7F0 /* Sources */,
+				ABC0BEE41BFFBDC400C5D7F0 /* Frameworks */,
+				ABC0BEE51BFFBDC400C5D7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lacrosse Stat Tracker";
+			productName = "Lacrosse Stat Tracker";
+			productReference = ABC0BEE71BFFBDC400C5D7F0 /* Lacrosse Stat Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC0BEFA1BFFBDC400C5D7F0 /* Lacrosse Stat TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC0BF121BFFBDC400C5D7F0 /* Build configuration list for PBXNativeTarget "Lacrosse Stat TrackerTests" */;
+			buildPhases = (
+				ABC0BEF71BFFBDC400C5D7F0 /* Sources */,
+				ABC0BEF81BFFBDC400C5D7F0 /* Frameworks */,
+				ABC0BEF91BFFBDC400C5D7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC0BEFD1BFFBDC400C5D7F0 /* PBXTargetDependency */,
+			);
+			name = "Lacrosse Stat TrackerTests";
+			productName = "Lacrosse Stat TrackerTests";
+			productReference = ABC0BEFB1BFFBDC400C5D7F0 /* Lacrosse Stat TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABC0BF051BFFBDC400C5D7F0 /* Lacrosse Stat TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC0BF151BFFBDC400C5D7F0 /* Build configuration list for PBXNativeTarget "Lacrosse Stat TrackerUITests" */;
+			buildPhases = (
+				ABC0BF021BFFBDC400C5D7F0 /* Sources */,
+				ABC0BF031BFFBDC400C5D7F0 /* Frameworks */,
+				ABC0BF041BFFBDC400C5D7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC0BF081BFFBDC400C5D7F0 /* PBXTargetDependency */,
+			);
+			name = "Lacrosse Stat TrackerUITests";
+			productName = "Lacrosse Stat TrackerUITests";
+			productReference = ABC0BF061BFFBDC400C5D7F0 /* Lacrosse Stat TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC0BEDF1BFFBDC300C5D7F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Allen Canning";
+				TargetAttributes = {
+					ABC0BEE61BFFBDC400C5D7F0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = U85F22H9KQ;
+					};
+					ABC0BEFA1BFFBDC400C5D7F0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = U85F22H9KQ;
+						TestTargetID = ABC0BEE61BFFBDC400C5D7F0;
+					};
+					ABC0BF051BFFBDC400C5D7F0 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = U85F22H9KQ;
+						TestTargetID = ABC0BEE61BFFBDC400C5D7F0;
+					};
+				};
+			};
+			buildConfigurationList = ABC0BEE21BFFBDC400C5D7F0 /* Build configuration list for PBXProject "Lacrosse Stat Tracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC0BEDE1BFFBDC300C5D7F0;
+			productRefGroup = ABC0BEE81BFFBDC400C5D7F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC0BEE61BFFBDC400C5D7F0 /* Lacrosse Stat Tracker */,
+				ABC0BEFA1BFFBDC400C5D7F0 /* Lacrosse Stat TrackerTests */,
+				ABC0BF051BFFBDC400C5D7F0 /* Lacrosse Stat TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC0BEE51BFFBDC400C5D7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC0BEF51BFFBDC400C5D7F0 /* LaunchScreen.storyboard in Resources */,
+				ABC0BEF21BFFBDC400C5D7F0 /* Assets.xcassets in Resources */,
+				ABC0BEF01BFFBDC400C5D7F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0BEF91BFFBDC400C5D7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0BF041BFFBDC400C5D7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC0BEE31BFFBDC400C5D7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC0BEED1BFFBDC400C5D7F0 /* ViewController.swift in Sources */,
+				ABC0BEEB1BFFBDC400C5D7F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0BEF71BFFBDC400C5D7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC0BF001BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC0BF021BFFBDC400C5D7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC0BF0B1BFFBDC400C5D7F0 /* Lacrosse_Stat_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC0BEFD1BFFBDC400C5D7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC0BEE61BFFBDC400C5D7F0 /* Lacrosse Stat Tracker */;
+			targetProxy = ABC0BEFC1BFFBDC400C5D7F0 /* PBXContainerItemProxy */;
+		};
+		ABC0BF081BFFBDC400C5D7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC0BEE61BFFBDC400C5D7F0 /* Lacrosse Stat Tracker */;
+			targetProxy = ABC0BF071BFFBDC400C5D7F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC0BEEE1BFFBDC400C5D7F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC0BEEF1BFFBDC400C5D7F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABC0BEF31BFFBDC400C5D7F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC0BEF41BFFBDC400C5D7F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC0BF0D1BFFBDC400C5D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC0BF0E1BFFBDC400C5D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC0BF101BFFBDC400C5D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lacrosse Stat Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NEJLL.Lacrosse-Stat-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABC0BF111BFFBDC400C5D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lacrosse Stat Tracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NEJLL.Lacrosse-Stat-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABC0BF131BFFBDC400C5D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lacrosse Stat TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NEJLL.Lacrosse-Stat-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lacrosse Stat Tracker.app/Lacrosse Stat Tracker";
+			};
+			name = Debug;
+		};
+		ABC0BF141BFFBDC400C5D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lacrosse Stat TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NEJLL.Lacrosse-Stat-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lacrosse Stat Tracker.app/Lacrosse Stat Tracker";
+			};
+			name = Release;
+		};
+		ABC0BF161BFFBDC400C5D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lacrosse Stat TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NEJLL.Lacrosse-Stat-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lacrosse Stat Tracker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ABC0BF171BFFBDC400C5D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lacrosse Stat TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NEJLL.Lacrosse-Stat-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lacrosse Stat Tracker";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC0BEE21BFFBDC400C5D7F0 /* Build configuration list for PBXProject "Lacrosse Stat Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC0BF0D1BFFBDC400C5D7F0 /* Debug */,
+				ABC0BF0E1BFFBDC400C5D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC0BF0F1BFFBDC400C5D7F0 /* Build configuration list for PBXNativeTarget "Lacrosse Stat Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC0BF101BFFBDC400C5D7F0 /* Debug */,
+				ABC0BF111BFFBDC400C5D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABC0BF121BFFBDC400C5D7F0 /* Build configuration list for PBXNativeTarget "Lacrosse Stat TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC0BF131BFFBDC400C5D7F0 /* Debug */,
+				ABC0BF141BFFBDC400C5D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABC0BF151BFFBDC400C5D7F0 /* Build configuration list for PBXNativeTarget "Lacrosse Stat TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC0BF161BFFBDC400C5D7F0 /* Debug */,
+				ABC0BF171BFFBDC400C5D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC0BEDF1BFFBDC300C5D7F0 /* Project object */;
+}
